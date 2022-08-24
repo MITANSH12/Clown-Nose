@@ -1,0 +1,14 @@
+#snap:hover {
+background-color: dodgerblue;
+}
+canvas {
+    border: darkblue 2px dashed;
+    animation-name: ex;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes ex {
+from {box-shadow: 1px 1px 40px red;}
+to {box-shadow: 1px 1px 40px lime;}
+
+}
